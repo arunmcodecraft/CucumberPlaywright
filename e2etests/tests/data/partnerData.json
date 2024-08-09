@@ -1,0 +1,17 @@
+{
+  "PartnerName": "Test Partner For Super Admin",
+  "PartnerEmail": "testpartner@test.com",
+  "PartnerPhoneNumber": "9898989898",
+  "PartnerAddressLine1": "Test Address",
+  "PartnerAddressLine2": "Test Address",
+  "PartnerCountry": "United States",
+  "PartnerState": "Illinois",
+  "ZipCode": "123456",
+  "PartnerCity": "Alorton",
+  "Notes": "Test Notes",
+  "imageFile": "D:/Data_Old/PlaywrightCucumber/e2etests/tests/data/TestData1.jpg",
+  "ContactName": "Test Contract Name",
+  "ContactJobTitle": "Test Contract Job",
+  "ContactEmail": "testcontractemail@test.com",
+  "ContactTelephone": "9898989898"
+}

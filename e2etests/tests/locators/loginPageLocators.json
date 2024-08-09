@@ -1,0 +1,22 @@
+{
+    "usernameField": {
+        "locator": "[type='email']",
+        "description": "Username field"
+    },
+
+    "passwordField": {
+        "locator": "[type='password']",
+        "description": "Password field"
+    },
+    
+    "loginButton": {
+        "locator": "//button[text()=' Log In ']",
+        "description": "Login button"
+    },
+    
+    "invalidCredentialError": {
+        "locator": "//span[text()='Invalid credentials']",
+        "description": "Error message for Invalid credentials"
+    }
+
+}

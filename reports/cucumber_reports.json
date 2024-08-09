@@ -1,0 +1,241 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "to-test-the-partner-module-scenarios;to-test-the-delete-funcationality-of-the-partner.",
+        "keyword": "Scenario",
+        "line": 60,
+        "name": "To test the delete funcationality of the Partner.",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 495865399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 46,
+            "name": "User is at login Page",
+            "match": {
+              "location": "e2etests\\tests\\steps\\loginSteps.spec.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 271818700
+            },
+            "embeddings": [
+              {
+                "data": "VXNlciBpcyBhdCBsb2dpbiBQYWdlIGlzIHN0YXJ0ZWQu",
+                "mime_type": "text/x.cucumber.log+plain"
+              },
+              {
+                "data": "VXNlciBpcyBhdCBsb2dpbiBQYWdlIGlzIGVuZGVkLg==",
+                "mime_type": "text/x.cucumber.log+plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 47,
+            "name": "Enter your \"superadmin@assetmanagement.com\" and \"Abc@123456\"",
+            "match": {
+              "location": "e2etests\\tests\\steps\\loginSteps.spec.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 319412499
+            },
+            "embeddings": [
+              {
+                "data": "RW50ZXIgeW91ciAic3VwZXJhZG1pbkBhc3NldG1hbmFnZW1lbnQuY29tIiBhbmQgIkFiY0AxMjM0NTYiIGlzIHN0YXJ0ZWQu",
+                "mime_type": "text/x.cucumber.log+plain"
+              },
+              {
+                "data": "RW50ZXJlZCB2YWx1ZSBzdXBlcmFkbWluQGFzc2V0bWFuYWdlbWVudC5jb20gb24gVXNlcm5hbWUgZmllbGQ=",
+                "mime_type": "text/x.cucumber.log+plain"
+              },
+              {
+                "data": "RW50ZXJlZCB2YWx1ZSBBYmNAMTIzNDU2IG9uIFBhc3N3b3JkIGZpZWxk",
+                "mime_type": "text/x.cucumber.log+plain"
+              },
+              {
+                "data": "RW50ZXIgeW91ciAic3VwZXJhZG1pbkBhc3NldG1hbmFnZW1lbnQuY29tIiBhbmQgIkFiY0AxMjM0NTYiIGlzIGVuZGVkLg==",
+                "mime_type": "text/x.cucumber.log+plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 48,
+            "name": "Click on Login Button",
+            "match": {
+              "location": "e2etests\\tests\\steps\\loginSteps.spec.ts:21"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 2661480297,
+              "error_message": "page.waitForTimeout: Target page, context or browser has been closed\n    at LoginPage.clickOnLoginButton (D:\\Data_Old\\PlaywrightCucumber\\e2etests\\tests\\pages\\loginpage.ts:28:25)\n    at async World.<anonymous> (D:\\Data_Old\\PlaywrightCucumber\\e2etests\\tests\\steps\\loginSteps.spec.ts:22:3)"
+            },
+            "embeddings": [
+              {
+                "data": "Q2xpY2sgb24gTG9naW4gQnV0dG9uIGlzIHN0YXJ0ZWQu",
+                "mime_type": "text/x.cucumber.log+plain"
+              },
+              {
+                "data": "Q2xpY2tlZCBvbiBMb2dpbiBidXR0b24=",
+                "mime_type": "text/x.cucumber.log+plain"
+              },
+              {
+                "data": "Q2xpY2sgb24gTG9naW4gQnV0dG9uIGlzIGVuZGVkLg==",
+                "mime_type": "text/x.cucumber.log+plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 49,
+            "name": "Dashboard Page should be displayed",
+            "match": {
+              "location": "e2etests\\tests\\steps\\dashboardSteps.spec.ts:17"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 50,
+            "name": "Click on the MasterData",
+            "match": {
+              "location": "e2etests\\tests\\steps\\dashboardSteps.spec.ts:46"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 51,
+            "name": "Click on the Master Data Partners Icon",
+            "match": {
+              "location": "e2etests\\tests\\steps\\dashboardSteps.spec.ts:50"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 52,
+            "name": "Enter the Partner Name to search in search field",
+            "match": {
+              "location": "e2etests\\tests\\steps\\partnerSteps.spec.ts:57"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 53,
+            "name": "Click on the Partner Name to Edit the same",
+            "match": {
+              "location": "e2etests\\tests\\steps\\partnerSteps.spec.ts:62"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 54,
+            "name": "Navigate to Locations Tab",
+            "match": {
+              "location": "e2etests\\tests\\steps\\partnerSteps.spec.ts:23"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 55,
+            "name": "Click on the Location Name to edit in the Locations Tab",
+            "match": {
+              "location": "e2etests\\tests\\steps\\partnerSteps.spec.ts:66"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 56,
+            "name": "Click on Delete button for Locations",
+            "match": {
+              "location": "e2etests\\tests\\steps\\partnerSteps.spec.ts:70"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 12663300,
+              "error_message": "page.screenshot: Target page, context or browser has been closed\n    at World.<anonymous> (D:\\Data_Old\\PlaywrightCucumber\\e2etests\\corelib\\basepage.spec.ts:54:37)"
+            },
+            "embeddings": [
+              {
+                "data": "VG8gdGVzdCB0aGUgZGVsZXRlIGZ1bmNhdGlvbmFsaXR5IG9mIHRoZSBQYXJ0bmVyLiBpcyBlbmRlZC4=",
+                "mime_type": "text/x.cucumber.log+plain"
+              },
+              {
+                "data": "U2NlbmFyaW8gc3RhdHVzIGlzIDw8PDw8RkFJTEVEPj4+Pj4+Pj4+",
+                "mime_type": "text/x.cucumber.log+plain"
+              },
+              {
+                "data": "VGFraW5nIFNjcmVlbnNob3Q=",
+                "mime_type": "text/x.cucumber.log+plain"
+              }
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "to-test-the-partner-module-scenarios",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "To test the Partner Module Scenarios",
+    "tags": [],
+    "uri": "e2etests\\tests\\features\\partner.feature"
+  }
+]

@@ -1,0 +1,85 @@
+{
+    "addLocationTitle": {
+        "locator": "//span[text()='Add Location']/following::span[text()='Add Location']",
+        "description": "Add Location Title"
+    },
+    "addLocationNameField": {
+        "locator": "//input[@placeholder='Location Name']",
+        "description": "Add Location Name field"
+    },
+    "addLocationDescriptionField": {
+        "locator": "//textarea[@placeholder='Description of the location*']",
+        "description": "Add Location Description field"
+    },
+    "addLocationPartnerField": {
+        "locator": "//input[@placeholder='Search for partner']",
+        "description": "Add Location Partner field"
+    },
+    "addLocationPartnerFieldsOptions": {
+        "locator": "//input[@placeholder='Search for partner']//following::ul/li/span",
+        "description": "Add Location Partner field options"
+    },
+    "addLocationAddress1Field": {
+        "locator": "//input[@placeholder='Address Line 1']",
+        "description": "Add Location Address 1 field"
+    },
+    "addLocationAddress2Field": {
+        "locator": "//input[@placeholder='Address Line 2']",
+        "description": "Add Location Address 2 field"
+    },
+    "addLocationCountryField": {
+        "locator": "//span[text()='Country']",
+        "description": "Add Location Country field"
+    },
+    "addLocationCountryFieldOptions": {
+        "locator": "//p-dropdown[@placeholder='Country']//following::ul/p-dropdownitem/li/span",
+        "description": "Add Location Country field options"
+    },
+    "addLocationStateField": {
+        "locator": "//span[text()='State']",
+        "description": "Add Location State field"
+    },
+    "addLocationStateFieldOptions": {
+        "locator": "//p-dropdown[@placeholder='State']//following::ul/p-dropdownitem/li/span",
+        "description": "Add Location State field options"
+    },
+    "addLocationZipcodeField": {
+        "locator": "//input[@placeholder='Zip Code']",
+        "description": "Add Location ZipCode field"
+    },
+    "addLocationCityField": {
+        "locator": "//p-dropdown[@placeholder='City']",
+        "description": "Add Location City field"
+    },
+    "addLocationCityFieldOptions": {
+        "locator": "//p-dropdown[@placeholder='City']//following::ul/p-dropdownitem/li/span",
+        "description": "Add Location City field options"
+    },
+    "addLocationPhoneNumberField": {
+        "locator": "//input[@placeholder='Phone Number']",
+        "description": "Add Location Phone Number field"
+    },
+    "addLocationSaveButton": {
+        "locator": "//button[text()=' Save ']",
+        "description": "Add Location Save Button"
+    },
+    "addLocationSuccessMessage": {
+        "locator": "//div[text()='Location Created Successfully']",
+        "description": "Add Location Success Message"
+    },
+    "editLocationDeleteButton": {
+        "locator": "//button[text()=' Delete ']",
+        "description": "Edit Location Delete Button"
+    },
+    "editLocationFirstAddedLocation": {
+        "locator": "(//tr//td/a)[1]",
+        "description": "Fist Added Location Delete"
+    },
+    "editLocationDeletePopupYesButton": {
+        "locator": "//button[text()=' Yes ']",
+        "description": "Delete Location Popup Yes Button"
+    }
+
+
+    
+}

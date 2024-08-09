@@ -1,0 +1,40 @@
+{
+    "dashboardTitle":{
+        "locator":"//div[text()='Home']",
+        "description":"locator for dashboatd page title"
+    },
+
+    "dashboardProfileIcon":{
+        "locator":"//a[@title='Logout']",
+        "description":"locator for dashboard page profile Icon"
+    },
+"dashboardLogoutButton":{
+        "locator":"//li[text()=' Logout ']",
+        "description":"locator for dashboard page Logout button"
+    },
+    "dashboardLogoutPopupYesButton":{
+        "locator":"//button[text()=' Yes ']",
+        "description":"locator for dashboard page Logout popup Yes Button"
+    },
+    "dashboardBreadCrumBForMenuBar":{
+        "locator":"//button[@aria-label='Toggle navigation']",
+        "description":"locator for dashboard page Menu Bar Bread Crum"
+    },
+    "dashboardContintentalLogo":{
+        "locator":"//div[@class='continental-logo']",
+        "description":"locator for dashboard page Contental Logo"
+    },
+    "dashboardHorseLogo":{
+        "locator":"//div[@class='horse-logo']",
+        "description":"locator for dashboard page Horse Logo"
+    },
+    "dashboardMasterDataMenuIcon":{
+        "locator":"//span[text()='Master Data']",
+        "description":"locator for dashboard page Master Data Menu Icon"
+    },  
+    "dashboardMasterDataPartnersIcon":{
+        "locator":"//span[text()='Partners']",
+        "description":"locator for dashboard page Master Data Partners Icon"
+    }
+   
+}

@@ -1,0 +1,131 @@
+{
+    "addPartnerButton": {
+        "locator": "//button[text()=' Add Partner ']",
+        "description": "Locator for Add Partner Button"
+    },
+    "addPartnerNameField": {
+        "locator": "//*[@placeholder='Partner Name*']",
+        "description": "Locator for Partner Name Field"
+    },
+    "addPartnerEmailField": {
+        "locator": "//*[@placeholder='Partner Primary Email']",
+        "description": "Locator for Partner Email Field"
+    },
+    "addPartnerPhoneNumberField": {
+        "locator": "//*[@placeholder='Partner Primary Phone Number']",
+        "description": "Locator for Partner Phone Number Field"
+    },
+    "addPartnerPartnerAddressLine1Field": {
+        "locator": "//*[@placeholder='Address Line 1*']",
+        "description": "Locator for Partner Address Line 1 Field"
+    },
+    "addPartnerPartnerAddressLine2Field": {
+        "locator": "//*[@placeholder='Address Line 2']",
+        "description": "Locator for Partner Address Line 2 Field"
+    },
+    "addPartnerPartnerCountryField": {
+        "locator": "//*[text()='Country']",
+        "description": "Locator for Partner Country Field"
+    },
+    "addPartnerPartnerCountryDropdowns": {
+        "locator": "//p-dropdown[@placeholder='Country']//following::ul/p-dropdownitem/li/span",
+        "description": "Locators for Partner Country Dropdowns"
+    },
+    "addPartnerPartnerStateField": {
+        "locator": "//span[text()='State']",
+        "description": "Locator for Partner State Field"
+    },
+    "addPartnerPartnerStateDropdowns": {
+        "locator": "//p-dropdown[@placeholder='State']//following::ul/p-dropdownitem/li/span",
+        "description": "Locators for Partner State Dropdowns"
+    },
+    "addPartnerPartnerZipCodeField": {
+        "locator": "//*[@placeholder='Zip Code']",
+        "description": "Locator for Partner zipcode Field"
+    },
+    "addPartnerPartnerCityField": {
+        "locator": "(//*[@placeholder='City'])[1]",
+        "description": "Locator for Partner City Field"
+    },
+    "addPartnerPartnerCityDropdowns": {
+        "locator": "//ul/p-dropdownitem/li/span",
+        "description": "Locators for Partner City Dropdowns"
+    },
+    "addPartnerPartnerNotesField": {
+        "locator": "//textarea[@formcontrolname='notes']",
+        "description": "Locator for Partner Notes Field"
+    },
+    "addPartnerPartnerLogoField": {
+        "locator": "//input[@type='file']",
+        "description": "Locator for Partner Logo Field"
+    },
+    "addPartnerPartnerSaveButton": {
+        "locator": "//button[text()=' Save ']",
+        "description": "Locator for Partner Save Button"
+    },
+    "addPartnerPartnerSuccessMessage": {
+        "locator": "//div[text()='Partner Created Successfully']",
+        "description": "Locator for Partner Created Successfully"
+    },
+    "addPartnerLocationsTabButton": {
+        "locator": "//span[text()='Locations']/following::span[text()='Locations']",
+        "description": "Locator for Add Patner Locations Tab Button"
+    },
+    "addPartnerLocationsTabCreateNewLocationButton": {
+        "locator": "//button[text()=' Create New Location ']",
+        "description": "Locator for Add Patner Contacts Tab Create New Location Button"
+    },
+    "addPartnerContactsTabButton": {
+        "locator": "//span[text()='Contacts']",
+        "description": "Locator for Add Patner Contacts Tab Create New Contact Button"
+    },
+    "addPartnerContactsTabCreateNewContactTitle": {
+        "locator": "//span[text()='Create Contact']/following::span[text()='Create Contact']",
+        "description": "Locator for Add Patner Contacts Tab Create New Contact Title"
+    },
+    "addPartnerContactsTabCreateNewContactButton": {
+        "locator": "//button[text()=' Create New Contact ']",
+        "description": "Locator for Add Patner Contacts Tab Create New Contact Button"
+    },
+    "addPartnerContactsTabContactNameField": {
+        "locator": "//input[@placeholder='Contact Name']",
+        "description": "Locator for Add Patner Contacts Tab Contact Name Field"
+    },
+    "addPartnerContactsTabJobTitleField": {
+        "locator": "//input[@placeholder='Job Title']",
+        "description": "Locator for Add Patner Contacts Tab Job Title Field"
+    },
+    "addPartnerContactsTabEmailField": {
+        "locator": "//input[@placeholder='Email']",
+        "description": "Locator for Add Patner Contacts Tab Email Field"
+    },
+    "addPartnerContactsTabTelephoneField": {
+        "locator": "//input[@placeholder='Telephone']",
+        "description": "Locator for Add Patner Contacts Tab Telephone Field"
+    },
+    "addPartnerContactsTabSaveButton": {
+        "locator": "//button[text()=' Save ']",
+        "description": "Locator for Add Patner Contacts Tab Save Button"
+    },
+    "addPartnerContactSuccessMessage": {
+        "locator": "//div[text()='Contact Created Successfully']",
+        "description": "Locator for Contact Created Successfully"
+    },
+    "addPartnerDetailsTabButton": {
+        "locator": "//span[text()='Details']",
+        "description": "Locator for Partner Details Tab"
+    },
+     "parnerBreadCrumLink": {
+        "locator": "(//span[text()='Partners'])[2]",
+        "description": "Locator for Partner BreadCrum"
+    },
+    "parnerListingSearchField": {
+        "locator": "//div[text()='Partners']/following::input[@placeholder='Search']",
+        "description": "Locator for Partner Listing Search Field"
+    },
+    "parnerListingSearchedNameField": {
+        "locator": "(//tbody/tr/td/a/span)[1]",
+        "description": "Locator for Partner Listing Searched Name Field"
+    }
+
+}

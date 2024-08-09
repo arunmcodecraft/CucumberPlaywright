@@ -1,0 +1,12 @@
+{
+    "LocationName": "Test Location For Super Admin",
+    "LocationDescription": "Test Description for Location",
+    "PartnerName": "Test Partner For Super Admin",
+    "LocationAddressLine1": "Test Address 1",
+    "LocationAddressLine2": "Test Address 2",
+    "LocationCountry": "United States",
+    "LocationState": "Arizona",
+    "LocationZipCode": "123456",
+    "LocationCity": "Anthem",
+    "LocationPhoneNumber":"9898989898"
+  }
